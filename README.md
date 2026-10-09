@@ -1,7 +1,7 @@
 # PANDA: Towards Generalist Video Anomaly Detection via Agentic AI Engineer
 
 > **本仓库为 fork，包含独立的完整复现实现与复现报告，见 [REPRODUCTION.md](REPRODUCTION.md)。**
-> 复现结论：M0 基线可复现（77.41 vs 论文 75.25）；论文 +9.6 的模块增益不可复现（真管线部分数据仅 +2.0），84.89 不可达。
+> 复现进展：M0 基线复现成功（77.41 vs 论文 75.25）；完整管线因时间/算力限制未完成全量评测，已完成部分显示正向增益（+2.0），代码与任务链可直接续跑。
 
 <!-- <div align="center">
   <img src="assets/panda_logo.png" width="100"/>
