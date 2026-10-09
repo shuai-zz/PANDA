@@ -1,0 +1,25 @@
+# PANDA reproduction dependencies.
+# NOTE: torch / torchvision / transformers are ALREADY installed in the remote
+# `panda` conda env (python 3.12, torch 2.13); they are pinned here only as a
+# reminder — install everything else with:
+#   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# HF hub is unreachable from the remote box; models are fetched via modelscope.
+
+langgraph>=0.2.60
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+opencv-python-headless>=4.8.0
+scikit-learn>=1.4.0
+openai>=1.30.0
+numpy>=1.26.0
+pillow>=10.0.0
+tavily-python>=0.5.0
+modelscope>=1.15.0
+
+# tool models (already-present torch/transformers reused; CPU inference)
+ultralytics>=8.2.0          # YOLO-World (yolov8s-worldv2)
+realesrgan>=0.3.0           # Real-ESRGAN x4 (falls back to bicubic if broken)
+basicsr>=1.4.2              # realesrgan dependency
+
+# pre-installed on the remote env, do NOT reinstall:
+# torch==2.13, torchvision, transformers

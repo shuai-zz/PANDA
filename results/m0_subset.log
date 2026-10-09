@@ -1,0 +1,995 @@
+2026-10-08 13:59:17,283 INFO [run_eval] stage=m0 ablation=AblationConfig(perception=False, planning=False, rag=False, reflection=False, short_com=False, long_com=False)
+2026-10-08 13:59:18,701 INFO [panda.data] subset selected: 10 normal + 10 abnormal
+2026-10-08 13:59:18,702 INFO [run_eval] evaluating 20 videos from /root/autodl-tmp/data/ucf_crime
+2026-10-08 13:59:18,733 INFO [run_eval] video Normal_Videos_003_x264 (normal): 94 frames, fps=30.00
+2026-10-08 13:59:18,737 INFO [panda.agent] === video Normal_Videos_003_x264: 94 frames, 19 clips ===
+2026-10-08 13:59:19,793 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:19,820 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 13:59:21,305 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:21,307 INFO [panda.agent] clip 1 reason: score=0.000 status=normal
+2026-10-08 13:59:22,651 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:22,653 INFO [panda.agent] clip 2 reason: score=0.000 status=normal
+2026-10-08 13:59:23,989 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:23,991 INFO [panda.agent] clip 3 reason: score=0.000 status=normal
+2026-10-08 13:59:25,336 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:25,338 INFO [panda.agent] clip 4 reason: score=0.000 status=normal
+2026-10-08 13:59:26,727 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:26,729 INFO [panda.agent] clip 5 reason: score=0.000 status=normal
+2026-10-08 13:59:28,064 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:28,066 INFO [panda.agent] clip 6 reason: score=0.000 status=normal
+2026-10-08 13:59:29,408 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:29,410 INFO [panda.agent] clip 7 reason: score=0.000 status=normal
+2026-10-08 13:59:30,770 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:30,772 INFO [panda.agent] clip 8 reason: score=0.000 status=normal
+2026-10-08 13:59:32,115 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:32,117 INFO [panda.agent] clip 9 reason: score=0.000 status=normal
+2026-10-08 13:59:33,454 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:33,456 INFO [panda.agent] clip 10 reason: score=0.000 status=normal
+2026-10-08 13:59:34,515 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:34,517 INFO [panda.agent] clip 11 reason: score=0.000 status=normal
+2026-10-08 13:59:35,873 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:35,875 INFO [panda.agent] clip 12 reason: score=0.000 status=normal
+2026-10-08 13:59:37,362 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:37,364 INFO [panda.agent] clip 13 reason: score=0.000 status=normal
+2026-10-08 13:59:38,714 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:38,716 INFO [panda.agent] clip 14 reason: score=0.000 status=normal
+2026-10-08 13:59:40,503 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:40,505 INFO [panda.agent] clip 15 reason: score=0.200 status=insufficient
+2026-10-08 13:59:40,508 INFO [panda.agent] clip 15: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 13:59:41,583 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:41,585 INFO [panda.agent] clip 16 reason: score=0.200 status=insufficient
+2026-10-08 13:59:41,587 INFO [panda.agent] clip 16: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 13:59:43,056 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:43,058 INFO [panda.agent] clip 17 reason: score=0.000 status=normal
+2026-10-08 13:59:44,040 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:44,042 INFO [panda.agent] clip 18 reason: score=0.200 status=normal
+2026-10-08 13:59:44,047 INFO [panda.agent] === video Normal_Videos_003_x264 done: 19 clips ===
+2026-10-08 13:59:45,029 INFO [run_eval] video Normal_Videos_003_x264 done in 26.3s: auc raw=nan smoothed=nan
+2026-10-08 13:59:45,029 INFO [run_eval] video Normal_Videos_006_x264 (normal): 15 frames, fps=30.00
+2026-10-08 13:59:45,031 INFO [panda.agent] === video Normal_Videos_006_x264: 15 frames, 3 clips ===
+2026-10-08 13:59:46,360 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:46,362 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 13:59:47,715 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:47,719 INFO [panda.agent] clip 1 reason: score=0.000 status=normal
+2026-10-08 13:59:49,171 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:49,173 INFO [panda.agent] clip 2 reason: score=0.000 status=normal
+2026-10-08 13:59:49,176 INFO [panda.agent] === video Normal_Videos_006_x264 done: 3 clips ===
+2026-10-08 13:59:49,177 INFO [run_eval] video Normal_Videos_006_x264 done in 4.1s: auc raw=nan smoothed=nan
+2026-10-08 13:59:49,178 INFO [run_eval] video Normal_Videos_010_x264 (normal): 35 frames, fps=30.00
+2026-10-08 13:59:49,181 INFO [panda.agent] === video Normal_Videos_010_x264: 35 frames, 7 clips ===
+2026-10-08 13:59:50,170 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:50,172 INFO [panda.agent] clip 0 reason: score=0.200 status=insufficient
+2026-10-08 13:59:50,175 INFO [panda.agent] clip 0: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 13:59:51,164 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:51,166 INFO [panda.agent] clip 1 reason: score=0.200 status=insufficient
+2026-10-08 13:59:51,169 INFO [panda.agent] clip 1: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 13:59:52,682 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:52,684 INFO [panda.agent] clip 2 reason: score=0.100 status=normal
+2026-10-08 13:59:53,705 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:53,707 INFO [panda.agent] clip 3 reason: score=0.200 status=insufficient
+2026-10-08 13:59:53,710 INFO [panda.agent] clip 3: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 13:59:54,783 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:54,785 INFO [panda.agent] clip 4 reason: score=0.200 status=insufficient
+2026-10-08 13:59:54,787 INFO [panda.agent] clip 4: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 13:59:55,775 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:55,777 INFO [panda.agent] clip 5 reason: score=0.000 status=normal
+2026-10-08 13:59:56,761 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:56,763 INFO [panda.agent] clip 6 reason: score=0.100 status=normal
+2026-10-08 13:59:56,766 INFO [panda.agent] === video Normal_Videos_010_x264 done: 7 clips ===
+2026-10-08 13:59:56,768 INFO [run_eval] video Normal_Videos_010_x264 done in 7.6s: auc raw=nan smoothed=nan
+2026-10-08 13:59:56,768 INFO [run_eval] video Normal_Videos_014_x264 (normal): 50 frames, fps=30.00
+2026-10-08 13:59:56,771 INFO [panda.agent] === video Normal_Videos_014_x264: 50 frames, 10 clips ===
+2026-10-08 13:59:58,299 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 13:59:58,302 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 14:00:00,183 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:00,185 INFO [panda.agent] clip 1 reason: score=0.200 status=insufficient
+2026-10-08 14:00:00,187 INFO [panda.agent] clip 1: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:00:01,713 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:01,715 INFO [panda.agent] clip 2 reason: score=0.000 status=normal
+2026-10-08 14:00:03,260 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:03,262 INFO [panda.agent] clip 3 reason: score=0.000 status=normal
+2026-10-08 14:00:04,426 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:04,428 INFO [panda.agent] clip 4 reason: score=0.000 status=normal
+2026-10-08 14:00:05,828 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:05,830 INFO [panda.agent] clip 5 reason: score=0.000 status=normal
+2026-10-08 14:00:06,866 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:06,868 INFO [panda.agent] clip 6 reason: score=0.000 status=normal
+2026-10-08 14:00:08,409 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:08,411 INFO [panda.agent] clip 7 reason: score=0.000 status=normal
+2026-10-08 14:00:09,935 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:09,937 INFO [panda.agent] clip 8 reason: score=0.000 status=normal
+2026-10-08 14:00:11,337 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:11,340 INFO [panda.agent] clip 9 reason: score=0.000 status=normal
+2026-10-08 14:00:11,343 INFO [panda.agent] === video Normal_Videos_014_x264 done: 10 clips ===
+2026-10-08 14:00:11,345 INFO [run_eval] video Normal_Videos_014_x264 done in 14.6s: auc raw=nan smoothed=nan
+2026-10-08 14:00:11,345 INFO [run_eval] video Normal_Videos_015_x264 (normal): 16 frames, fps=30.00
+2026-10-08 14:00:11,348 INFO [panda.agent] === video Normal_Videos_015_x264: 16 frames, 4 clips ===
+2026-10-08 14:00:12,682 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:12,684 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 14:00:13,853 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:13,855 INFO [panda.agent] clip 1 reason: score=0.200 status=insufficient
+2026-10-08 14:00:13,857 INFO [panda.agent] clip 1: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:00:15,242 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:15,244 INFO [panda.agent] clip 2 reason: score=0.000 status=normal
+2026-10-08 14:00:17,137 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:17,139 INFO [panda.agent] clip 3 reason: score=0.200 status=insufficient
+2026-10-08 14:00:17,141 INFO [panda.agent] clip 3: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:00:17,142 INFO [panda.agent] === video Normal_Videos_015_x264 done: 4 clips ===
+2026-10-08 14:00:17,143 INFO [run_eval] video Normal_Videos_015_x264 done in 5.8s: auc raw=nan smoothed=nan
+2026-10-08 14:00:17,144 INFO [run_eval] video Normal_Videos_018_x264 (normal): 39 frames, fps=30.00
+2026-10-08 14:00:17,147 INFO [panda.agent] === video Normal_Videos_018_x264: 39 frames, 8 clips ===
+2026-10-08 14:00:18,174 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:18,176 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 14:00:19,674 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:19,676 INFO [panda.agent] clip 1 reason: score=0.000 status=normal
+2026-10-08 14:00:21,195 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:21,196 INFO [panda.agent] clip 2 reason: score=0.100 status=normal
+2026-10-08 14:00:22,711 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:22,713 INFO [panda.agent] clip 3 reason: score=0.000 status=normal
+2026-10-08 14:00:24,212 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:24,214 INFO [panda.agent] clip 4 reason: score=0.000 status=normal
+2026-10-08 14:00:25,707 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:25,710 INFO [panda.agent] clip 5 reason: score=0.000 status=normal
+2026-10-08 14:00:27,212 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:27,214 INFO [panda.agent] clip 6 reason: score=0.000 status=normal
+2026-10-08 14:00:28,719 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:28,721 INFO [panda.agent] clip 7 reason: score=0.000 status=normal
+2026-10-08 14:00:28,724 INFO [panda.agent] === video Normal_Videos_018_x264 done: 8 clips ===
+2026-10-08 14:00:28,725 INFO [run_eval] video Normal_Videos_018_x264 done in 11.6s: auc raw=nan smoothed=nan
+2026-10-08 14:00:28,726 INFO [run_eval] video Normal_Videos_019_x264 (normal): 95 frames, fps=30.00
+2026-10-08 14:00:28,729 INFO [panda.agent] === video Normal_Videos_019_x264: 95 frames, 19 clips ===
+2026-10-08 14:00:29,907 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:29,909 INFO [panda.agent] clip 0 reason: score=0.200 status=insufficient
+2026-10-08 14:00:29,911 INFO [panda.agent] clip 0: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:00:31,217 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:31,219 INFO [panda.agent] clip 1 reason: score=0.000 status=normal
+2026-10-08 14:00:32,205 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:32,207 INFO [panda.agent] clip 2 reason: score=0.000 status=normal
+2026-10-08 14:00:33,815 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:33,817 INFO [panda.agent] clip 3 reason: score=0.000 status=normal
+2026-10-08 14:00:34,712 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:34,715 INFO [panda.agent] clip 4 reason: score=0.000 status=normal
+2026-10-08 14:00:35,917 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:35,919 INFO [panda.agent] clip 5 reason: score=0.200 status=insufficient
+2026-10-08 14:00:35,922 INFO [panda.agent] clip 5: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:00:37,104 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:37,106 INFO [panda.agent] clip 6 reason: score=0.000 status=normal
+2026-10-08 14:00:38,032 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:38,034 INFO [panda.agent] clip 7 reason: score=0.200 status=abnormal
+2026-10-08 14:00:39,057 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:39,061 INFO [panda.agent] clip 8 reason: score=0.200 status=abnormal
+2026-10-08 14:00:40,656 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:40,659 INFO [panda.agent] clip 9 reason: score=0.200 status=insufficient
+2026-10-08 14:00:40,661 INFO [panda.agent] clip 9: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:00:41,866 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:41,868 INFO [panda.agent] clip 10 reason: score=0.200 status=insufficient
+2026-10-08 14:00:41,870 INFO [panda.agent] clip 10: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:00:42,939 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:42,941 INFO [panda.agent] clip 11 reason: score=0.200 status=insufficient
+2026-10-08 14:00:42,943 INFO [panda.agent] clip 11: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:00:44,455 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:44,458 INFO [panda.agent] clip 12 reason: score=0.100 status=normal
+2026-10-08 14:00:45,606 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:45,608 INFO [panda.agent] clip 13 reason: score=0.200 status=insufficient
+2026-10-08 14:00:45,610 INFO [panda.agent] clip 13: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:00:46,679 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:46,681 INFO [panda.agent] clip 14 reason: score=0.200 status=abnormal
+2026-10-08 14:00:48,327 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:48,329 INFO [panda.agent] clip 15 reason: score=0.200 status=abnormal
+2026-10-08 14:00:49,504 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:49,506 INFO [panda.agent] clip 16 reason: score=0.200 status=insufficient
+2026-10-08 14:00:49,508 INFO [panda.agent] clip 16: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:00:50,515 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:50,517 INFO [panda.agent] clip 17 reason: score=0.200 status=insufficient
+2026-10-08 14:00:50,519 INFO [panda.agent] clip 17: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:00:51,511 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:51,513 INFO [panda.agent] clip 18 reason: score=0.000 status=normal
+2026-10-08 14:00:51,516 INFO [panda.agent] === video Normal_Videos_019_x264 done: 19 clips ===
+2026-10-08 14:00:51,518 INFO [run_eval] video Normal_Videos_019_x264 done in 22.8s: auc raw=nan smoothed=nan
+2026-10-08 14:00:51,519 INFO [run_eval] video Normal_Videos_024_x264 (normal): 36 frames, fps=30.00
+2026-10-08 14:00:51,522 INFO [panda.agent] === video Normal_Videos_024_x264: 36 frames, 8 clips ===
+2026-10-08 14:00:52,394 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:52,396 INFO [panda.agent] clip 0 reason: score=0.200 status=abnormal
+2026-10-08 14:00:53,368 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:53,370 INFO [panda.agent] clip 1 reason: score=0.200 status=normal
+2026-10-08 14:00:54,850 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:54,852 INFO [panda.agent] clip 2 reason: score=0.000 status=normal
+2026-10-08 14:00:56,336 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:56,338 INFO [panda.agent] clip 3 reason: score=0.200 status=normal
+2026-10-08 14:00:57,325 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:57,327 INFO [panda.agent] clip 4 reason: score=0.200 status=normal
+2026-10-08 14:00:58,826 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:00:58,828 INFO [panda.agent] clip 5 reason: score=0.000 status=normal
+2026-10-08 14:01:00,308 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:00,310 INFO [panda.agent] clip 6 reason: score=0.200 status=normal
+2026-10-08 14:01:01,887 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:01,889 INFO [panda.agent] clip 7 reason: score=0.200 status=normal
+2026-10-08 14:01:01,892 INFO [panda.agent] === video Normal_Videos_024_x264 done: 8 clips ===
+2026-10-08 14:01:01,894 INFO [run_eval] video Normal_Videos_024_x264 done in 10.4s: auc raw=nan smoothed=nan
+2026-10-08 14:01:01,894 INFO [run_eval] video Normal_Videos_025_x264 (normal): 20 frames, fps=30.00
+2026-10-08 14:01:01,901 INFO [panda.agent] === video Normal_Videos_025_x264: 20 frames, 4 clips ===
+2026-10-08 14:01:03,345 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:03,348 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 14:01:04,801 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:04,803 INFO [panda.agent] clip 1 reason: score=0.000 status=normal
+2026-10-08 14:01:06,260 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:06,262 INFO [panda.agent] clip 2 reason: score=0.000 status=normal
+2026-10-08 14:01:07,715 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:07,717 INFO [panda.agent] clip 3 reason: score=0.000 status=normal
+2026-10-08 14:01:07,720 INFO [panda.agent] === video Normal_Videos_025_x264 done: 4 clips ===
+2026-10-08 14:01:07,722 INFO [run_eval] video Normal_Videos_025_x264 done in 5.8s: auc raw=nan smoothed=nan
+2026-10-08 14:01:07,722 INFO [run_eval] video Normal_Videos_027_x264 (normal): 164 frames, fps=30.00
+2026-10-08 14:01:07,725 INFO [panda.agent] === video Normal_Videos_027_x264: 164 frames, 33 clips ===
+2026-10-08 14:01:08,774 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:08,776 INFO [panda.agent] clip 0 reason: score=0.200 status=insufficient
+2026-10-08 14:01:08,778 INFO [panda.agent] clip 0: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:01:09,702 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:09,704 INFO [panda.agent] clip 1 reason: score=0.200 status=abnormal
+2026-10-08 14:01:10,821 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:10,823 INFO [panda.agent] clip 2 reason: score=0.100 status=normal
+2026-10-08 14:01:11,937 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:11,939 INFO [panda.agent] clip 3 reason: score=0.200 status=abnormal
+2026-10-08 14:01:13,436 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:13,438 INFO [panda.agent] clip 4 reason: score=0.000 status=normal
+2026-10-08 14:01:14,747 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:14,750 INFO [panda.agent] clip 5 reason: score=0.000 status=normal
+2026-10-08 14:01:15,617 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:15,619 INFO [panda.agent] clip 6 reason: score=0.000 status=normal
+2026-10-08 14:01:16,971 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:16,973 INFO [panda.agent] clip 7 reason: score=0.000 status=normal
+2026-10-08 14:01:17,998 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:18,000 INFO [panda.agent] clip 8 reason: score=0.000 status=normal
+2026-10-08 14:01:19,115 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:19,117 INFO [panda.agent] clip 9 reason: score=0.200 status=abnormal
+2026-10-08 14:01:20,090 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:20,092 INFO [panda.agent] clip 10 reason: score=0.000 status=normal
+2026-10-08 14:01:21,548 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:21,550 INFO [panda.agent] clip 11 reason: score=0.000 status=normal
+2026-10-08 14:01:23,000 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:23,002 INFO [panda.agent] clip 12 reason: score=0.000 status=normal
+2026-10-08 14:01:24,449 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:24,450 INFO [panda.agent] clip 13 reason: score=0.000 status=normal
+2026-10-08 14:01:25,904 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:25,906 INFO [panda.agent] clip 14 reason: score=0.000 status=normal
+2026-10-08 14:01:26,929 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:26,932 INFO [panda.agent] clip 15 reason: score=0.000 status=normal
+2026-10-08 14:01:28,379 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:28,381 INFO [panda.agent] clip 16 reason: score=0.000 status=normal
+2026-10-08 14:01:29,819 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:29,821 INFO [panda.agent] clip 17 reason: score=0.000 status=normal
+2026-10-08 14:01:30,861 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:30,863 INFO [panda.agent] clip 18 reason: score=0.000 status=normal
+2026-10-08 14:01:32,348 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:32,350 INFO [panda.agent] clip 19 reason: score=0.000 status=normal
+2026-10-08 14:01:33,837 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:33,839 INFO [panda.agent] clip 20 reason: score=0.000 status=normal
+2026-10-08 14:01:35,303 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:35,306 INFO [panda.agent] clip 21 reason: score=0.000 status=normal
+2026-10-08 14:01:36,358 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:36,360 INFO [panda.agent] clip 22 reason: score=0.000 status=normal
+2026-10-08 14:01:37,822 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:37,824 INFO [panda.agent] clip 23 reason: score=0.000 status=normal
+2026-10-08 14:01:39,293 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:39,295 INFO [panda.agent] clip 24 reason: score=0.000 status=normal
+2026-10-08 14:01:40,778 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:40,780 INFO [panda.agent] clip 25 reason: score=0.000 status=normal
+2026-10-08 14:01:42,248 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:42,250 INFO [panda.agent] clip 26 reason: score=0.000 status=normal
+2026-10-08 14:01:43,587 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:43,589 INFO [panda.agent] clip 27 reason: score=0.000 status=normal
+2026-10-08 14:01:44,910 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:44,912 INFO [panda.agent] clip 28 reason: score=0.000 status=normal
+2026-10-08 14:01:46,394 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:46,396 INFO [panda.agent] clip 29 reason: score=0.000 status=normal
+2026-10-08 14:01:47,865 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:47,867 INFO [panda.agent] clip 30 reason: score=0.000 status=normal
+2026-10-08 14:01:49,354 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:49,356 INFO [panda.agent] clip 31 reason: score=0.000 status=normal
+2026-10-08 14:01:50,829 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:50,831 INFO [panda.agent] clip 32 reason: score=0.000 status=normal
+2026-10-08 14:01:50,833 INFO [panda.agent] === video Normal_Videos_027_x264 done: 33 clips ===
+2026-10-08 14:01:50,836 INFO [run_eval] video Normal_Videos_027_x264 done in 43.1s: auc raw=nan smoothed=nan
+2026-10-08 14:01:50,836 INFO [run_eval] video Abuse028_x264 (abnormal): 47 frames, fps=30.00
+2026-10-08 14:01:50,839 INFO [panda.agent] === video Abuse028_x264: 47 frames, 10 clips ===
+2026-10-08 14:01:51,781 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:51,783 INFO [panda.agent] clip 0 reason: score=0.200 status=normal
+2026-10-08 14:01:52,677 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:52,679 INFO [panda.agent] clip 1 reason: score=0.000 status=normal
+2026-10-08 14:01:53,656 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:53,658 INFO [panda.agent] clip 2 reason: score=0.100 status=normal
+2026-10-08 14:01:54,591 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:54,593 INFO [panda.agent] clip 3 reason: score=0.200 status=abnormal
+2026-10-08 14:01:55,603 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:55,605 INFO [panda.agent] clip 4 reason: score=0.200 status=insufficient
+2026-10-08 14:01:55,607 INFO [panda.agent] clip 4: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:01:56,698 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:56,700 INFO [panda.agent] clip 5 reason: score=0.200 status=insufficient
+2026-10-08 14:01:56,702 INFO [panda.agent] clip 5: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:01:57,863 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:57,865 INFO [panda.agent] clip 6 reason: score=0.200 status=normal
+2026-10-08 14:01:58,864 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:58,866 INFO [panda.agent] clip 7 reason: score=0.000 status=normal
+2026-10-08 14:01:59,891 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:01:59,893 INFO [panda.agent] clip 8 reason: score=0.000 status=normal
+2026-10-08 14:02:01,043 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:01,045 INFO [panda.agent] clip 9 reason: score=0.200 status=insufficient
+2026-10-08 14:02:01,047 INFO [panda.agent] clip 9: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:02:01,048 INFO [panda.agent] === video Abuse028_x264 done: 10 clips ===
+2026-10-08 14:02:01,091 INFO [run_eval] video Abuse028_x264 done in 10.3s: auc raw=13.64 smoothed=25.00
+2026-10-08 14:02:01,091 INFO [run_eval] video Abuse030_x264 (abnormal): 51 frames, fps=30.00
+2026-10-08 14:02:01,092 INFO [panda.agent] === video Abuse030_x264: 51 frames, 11 clips ===
+2026-10-08 14:02:02,031 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:02,033 INFO [panda.agent] clip 0 reason: score=0.200 status=abnormal
+2026-10-08 14:02:03,100 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:03,102 INFO [panda.agent] clip 1 reason: score=0.000 status=normal
+2026-10-08 14:02:04,057 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:04,059 INFO [panda.agent] clip 2 reason: score=0.100 status=normal
+2026-10-08 14:02:05,133 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:05,135 INFO [panda.agent] clip 3 reason: score=0.200 status=insufficient
+2026-10-08 14:02:05,136 INFO [panda.agent] clip 3: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:02:06,096 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:06,098 INFO [panda.agent] clip 4 reason: score=0.000 status=normal
+2026-10-08 14:02:07,629 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:07,631 INFO [panda.agent] clip 5 reason: score=0.000 status=normal
+2026-10-08 14:02:08,599 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:08,601 INFO [panda.agent] clip 6 reason: score=0.000 status=normal
+2026-10-08 14:02:09,619 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:09,621 INFO [panda.agent] clip 7 reason: score=0.200 status=insufficient
+2026-10-08 14:02:09,623 INFO [panda.agent] clip 7: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:02:10,583 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:10,585 INFO [panda.agent] clip 8 reason: score=0.000 status=normal
+2026-10-08 14:02:12,250 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:12,252 INFO [panda.agent] clip 9 reason: score=0.200 status=abnormal
+2026-10-08 14:02:14,170 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:14,172 INFO [panda.agent] clip 10 reason: score=0.200 status=insufficient
+2026-10-08 14:02:14,174 INFO [panda.agent] clip 10: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:02:14,175 INFO [panda.agent] === video Abuse030_x264 done: 11 clips ===
+2026-10-08 14:02:14,193 INFO [run_eval] video Abuse030_x264 done in 13.1s: auc raw=22.92 smoothed=48.26
+2026-10-08 14:02:14,193 INFO [run_eval] video Arrest001_x264 (abnormal): 79 frames, fps=30.00
+2026-10-08 14:02:14,195 INFO [panda.agent] === video Arrest001_x264: 79 frames, 16 clips ===
+2026-10-08 14:02:15,150 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:15,152 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 14:02:16,014 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:16,017 INFO [panda.agent] clip 1 reason: score=0.000 status=normal
+2026-10-08 14:02:16,893 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:16,896 INFO [panda.agent] clip 2 reason: score=0.000 status=normal
+2026-10-08 14:02:17,907 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:17,909 INFO [panda.agent] clip 3 reason: score=0.200 status=insufficient
+2026-10-08 14:02:17,911 INFO [panda.agent] clip 3: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:02:19,165 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:19,167 INFO [panda.agent] clip 4 reason: score=0.200 status=normal
+2026-10-08 14:02:20,241 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:20,244 INFO [panda.agent] clip 5 reason: score=0.200 status=insufficient
+2026-10-08 14:02:20,246 INFO [panda.agent] clip 5: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:02:21,110 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:21,112 INFO [panda.agent] clip 6 reason: score=0.000 status=normal
+2026-10-08 14:02:22,123 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:22,125 INFO [panda.agent] clip 7 reason: score=0.200 status=abnormal
+2026-10-08 14:02:23,021 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:23,023 INFO [panda.agent] clip 8 reason: score=0.200 status=abnormal
+2026-10-08 14:02:23,971 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:23,973 INFO [panda.agent] clip 9 reason: score=0.200 status=abnormal
+2026-10-08 14:02:25,211 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:25,214 INFO [panda.agent] clip 10 reason: score=0.200 status=abnormal
+2026-10-08 14:02:26,836 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:26,838 INFO [panda.agent] clip 11 reason: score=0.200 status=abnormal
+2026-10-08 14:02:27,877 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:27,879 INFO [panda.agent] clip 12 reason: score=0.100 status=normal
+2026-10-08 14:02:28,964 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:28,966 INFO [panda.agent] clip 13 reason: score=0.200 status=abnormal
+2026-10-08 14:02:29,825 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:29,827 INFO [panda.agent] clip 14 reason: score=0.000 status=normal
+2026-10-08 14:02:31,225 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:31,227 INFO [panda.agent] clip 15 reason: score=0.200 status=normal
+2026-10-08 14:02:31,230 INFO [panda.agent] === video Arrest001_x264 done: 16 clips ===
+2026-10-08 14:02:31,249 INFO [run_eval] video Arrest001_x264 done in 17.1s: auc raw=64.49 smoothed=69.28
+2026-10-08 14:02:31,250 INFO [run_eval] video Arrest007_x264 (abnormal): 105 frames, fps=30.00
+2026-10-08 14:02:31,252 INFO [panda.agent] === video Arrest007_x264: 105 frames, 21 clips ===
+2026-10-08 14:02:32,231 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:32,233 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 14:02:33,165 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:33,167 INFO [panda.agent] clip 1 reason: score=0.200 status=abnormal
+2026-10-08 14:02:34,008 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:34,010 INFO [panda.agent] clip 2 reason: score=0.100 status=normal
+2026-10-08 14:02:34,916 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:34,918 INFO [panda.agent] clip 3 reason: score=0.200 status=normal
+2026-10-08 14:02:35,821 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:35,823 INFO [panda.agent] clip 4 reason: score=0.200 status=normal
+2026-10-08 14:02:36,885 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:36,887 INFO [panda.agent] clip 5 reason: score=0.200 status=abnormal
+2026-10-08 14:02:37,806 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:37,808 INFO [panda.agent] clip 6 reason: score=0.200 status=abnormal
+2026-10-08 14:02:38,711 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:38,713 INFO [panda.agent] clip 7 reason: score=0.200 status=normal
+2026-10-08 14:02:39,634 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:39,636 INFO [panda.agent] clip 8 reason: score=0.200 status=normal
+2026-10-08 14:02:40,523 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:40,525 INFO [panda.agent] clip 9 reason: score=0.200 status=normal
+2026-10-08 14:02:41,401 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:41,403 INFO [panda.agent] clip 10 reason: score=0.200 status=abnormal
+2026-10-08 14:02:42,404 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:42,406 INFO [panda.agent] clip 11 reason: score=0.800 status=abnormal
+2026-10-08 14:02:43,295 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:43,297 INFO [panda.agent] clip 12 reason: score=0.300 status=abnormal
+2026-10-08 14:02:44,186 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:44,188 INFO [panda.agent] clip 13 reason: score=0.200 status=abnormal
+2026-10-08 14:02:45,117 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:45,119 INFO [panda.agent] clip 14 reason: score=0.200 status=abnormal
+2026-10-08 14:02:46,048 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:46,050 INFO [panda.agent] clip 15 reason: score=0.000 status=normal
+2026-10-08 14:02:47,030 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:47,032 INFO [panda.agent] clip 16 reason: score=0.000 status=normal
+2026-10-08 14:02:48,443 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:48,445 INFO [panda.agent] clip 17 reason: score=0.200 status=insufficient
+2026-10-08 14:02:48,448 INFO [panda.agent] clip 17: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:02:49,550 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:49,552 INFO [panda.agent] clip 18 reason: score=0.200 status=abnormal
+2026-10-08 14:02:50,508 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:50,510 INFO [panda.agent] clip 19 reason: score=0.000 status=normal
+2026-10-08 14:02:51,386 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:51,388 INFO [panda.agent] clip 20 reason: score=0.000 status=normal
+2026-10-08 14:02:51,391 INFO [panda.agent] === video Arrest007_x264 done: 21 clips ===
+2026-10-08 14:02:51,410 INFO [run_eval] video Arrest007_x264 done in 20.2s: auc raw=79.57 smoothed=92.44
+2026-10-08 14:02:51,410 INFO [run_eval] video Arrest024_x264 (abnormal): 121 frames, fps=30.00
+2026-10-08 14:02:51,412 INFO [panda.agent] === video Arrest024_x264: 121 frames, 25 clips ===
+2026-10-08 14:02:52,848 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:52,850 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 14:02:54,287 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:54,289 INFO [panda.agent] clip 1 reason: score=0.200 status=normal
+2026-10-08 14:02:55,420 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:55,422 INFO [panda.agent] clip 2 reason: score=0.300 status=abnormal
+2026-10-08 14:02:56,889 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:56,891 INFO [panda.agent] clip 3 reason: score=0.200 status=normal
+2026-10-08 14:02:58,351 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:58,353 INFO [panda.agent] clip 4 reason: score=0.200 status=normal
+2026-10-08 14:02:59,801 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:02:59,803 INFO [panda.agent] clip 5 reason: score=0.200 status=normal
+2026-10-08 14:03:01,081 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:01,083 INFO [panda.agent] clip 6 reason: score=0.800 status=abnormal
+2026-10-08 14:03:02,257 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:02,259 INFO [panda.agent] clip 7 reason: score=0.800 status=abnormal
+2026-10-08 14:03:03,195 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:03,196 INFO [panda.agent] clip 8 reason: score=0.200 status=abnormal
+2026-10-08 14:03:04,360 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:04,362 INFO [panda.agent] clip 9 reason: score=0.800 status=abnormal
+2026-10-08 14:03:05,631 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:05,633 INFO [panda.agent] clip 10 reason: score=0.800 status=abnormal
+2026-10-08 14:03:06,699 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:06,701 INFO [panda.agent] clip 11 reason: score=0.800 status=abnormal
+2026-10-08 14:03:07,735 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:07,737 INFO [panda.agent] clip 12 reason: score=0.800 status=abnormal
+2026-10-08 14:03:08,772 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:08,774 INFO [panda.agent] clip 13 reason: score=0.800 status=abnormal
+2026-10-08 14:03:09,667 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:09,669 INFO [panda.agent] clip 14 reason: score=0.800 status=abnormal
+2026-10-08 14:03:11,177 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:11,179 INFO [panda.agent] clip 15 reason: score=0.800 status=abnormal
+2026-10-08 14:03:12,071 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:12,073 INFO [panda.agent] clip 16 reason: score=0.800 status=abnormal
+2026-10-08 14:03:13,089 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:13,091 INFO [panda.agent] clip 17 reason: score=0.800 status=abnormal
+2026-10-08 14:03:14,221 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:14,224 INFO [panda.agent] clip 18 reason: score=0.900 status=abnormal
+2026-10-08 14:03:15,562 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:15,564 INFO [panda.agent] clip 19 reason: score=0.800 status=abnormal
+2026-10-08 14:03:16,446 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:16,448 INFO [panda.agent] clip 20 reason: score=0.300 status=abnormal
+2026-10-08 14:03:17,432 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:17,434 INFO [panda.agent] clip 21 reason: score=0.300 status=abnormal
+2026-10-08 14:03:18,429 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:18,431 INFO [panda.agent] clip 22 reason: score=0.800 status=abnormal
+2026-10-08 14:03:19,430 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:19,432 INFO [panda.agent] clip 23 reason: score=0.500 status=abnormal
+2026-10-08 14:03:20,688 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:20,690 INFO [panda.agent] clip 24 reason: score=0.700 status=abnormal
+2026-10-08 14:03:20,692 INFO [panda.agent] === video Arrest024_x264 done: 25 clips ===
+2026-10-08 14:03:20,712 INFO [run_eval] video Arrest024_x264 done in 29.3s: auc raw=86.89 smoothed=95.59
+2026-10-08 14:03:20,712 INFO [run_eval] video Arrest030_x264 (abnormal): 288 frames, fps=30.00
+2026-10-08 14:03:20,715 INFO [panda.agent] === video Arrest030_x264: 288 frames, 58 clips ===
+2026-10-08 14:03:21,684 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:21,686 INFO [panda.agent] clip 0 reason: score=0.200 status=insufficient
+2026-10-08 14:03:21,688 INFO [panda.agent] clip 0: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:03:22,854 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:22,856 INFO [panda.agent] clip 1 reason: score=0.200 status=insufficient
+2026-10-08 14:03:22,858 INFO [panda.agent] clip 1: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:03:23,774 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:23,776 INFO [panda.agent] clip 2 reason: score=0.100 status=abnormal
+2026-10-08 14:03:24,731 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:24,733 INFO [panda.agent] clip 3 reason: score=0.200 status=insufficient
+2026-10-08 14:03:24,735 INFO [panda.agent] clip 3: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:03:25,694 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:25,696 INFO [panda.agent] clip 4 reason: score=0.200 status=normal
+2026-10-08 14:03:26,649 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:26,651 INFO [panda.agent] clip 5 reason: score=0.200 status=abnormal
+2026-10-08 14:03:27,858 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:27,860 INFO [panda.agent] clip 6 reason: score=0.200 status=abnormal
+2026-10-08 14:03:28,974 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:28,976 INFO [panda.agent] clip 7 reason: score=0.200 status=abnormal
+2026-10-08 14:03:30,041 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:30,043 INFO [panda.agent] clip 8 reason: score=0.200 status=abnormal
+2026-10-08 14:03:31,236 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:31,238 INFO [panda.agent] clip 9 reason: score=0.700 status=abnormal
+2026-10-08 14:03:32,338 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:32,340 INFO [panda.agent] clip 10 reason: score=0.700 status=abnormal
+2026-10-08 14:03:33,551 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:33,553 INFO [panda.agent] clip 11 reason: score=0.800 status=abnormal
+2026-10-08 14:03:34,563 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:34,565 INFO [panda.agent] clip 12 reason: score=0.700 status=abnormal
+2026-10-08 14:03:35,878 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:35,880 INFO [panda.agent] clip 13 reason: score=0.200 status=abnormal
+2026-10-08 14:03:36,950 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:36,951 INFO [panda.agent] clip 14 reason: score=0.200 status=abnormal
+2026-10-08 14:03:37,928 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:37,930 INFO [panda.agent] clip 15 reason: score=0.200 status=abnormal
+2026-10-08 14:03:38,823 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:38,825 INFO [panda.agent] clip 16 reason: score=0.200 status=abnormal
+2026-10-08 14:03:39,882 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:39,884 INFO [panda.agent] clip 17 reason: score=0.200 status=abnormal
+2026-10-08 14:03:40,812 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:40,814 INFO [panda.agent] clip 18 reason: score=0.200 status=abnormal
+2026-10-08 14:03:41,823 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:41,825 INFO [panda.agent] clip 19 reason: score=0.200 status=abnormal
+2026-10-08 14:03:42,788 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:42,790 INFO [panda.agent] clip 20 reason: score=0.300 status=abnormal
+2026-10-08 14:03:43,766 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:43,768 INFO [panda.agent] clip 21 reason: score=0.300 status=abnormal
+2026-10-08 14:03:44,664 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:44,666 INFO [panda.agent] clip 22 reason: score=0.300 status=abnormal
+2026-10-08 14:03:45,752 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:45,754 INFO [panda.agent] clip 23 reason: score=0.100 status=abnormal
+2026-10-08 14:03:46,966 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:46,969 INFO [panda.agent] clip 24 reason: score=0.300 status=abnormal
+2026-10-08 14:03:48,056 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:48,058 INFO [panda.agent] clip 25 reason: score=0.300 status=abnormal
+2026-10-08 14:03:49,196 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:49,198 INFO [panda.agent] clip 26 reason: score=0.300 status=abnormal
+2026-10-08 14:03:50,505 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:50,507 INFO [panda.agent] clip 27 reason: score=0.300 status=abnormal
+2026-10-08 14:03:51,527 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:51,529 INFO [panda.agent] clip 28 reason: score=0.300 status=abnormal
+2026-10-08 14:03:52,503 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:52,505 INFO [panda.agent] clip 29 reason: score=0.300 status=abnormal
+2026-10-08 14:03:53,419 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:53,421 INFO [panda.agent] clip 30 reason: score=0.200 status=abnormal
+2026-10-08 14:03:54,333 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:54,335 INFO [panda.agent] clip 31 reason: score=0.800 status=abnormal
+2026-10-08 14:03:55,291 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:55,293 INFO [panda.agent] clip 32 reason: score=0.500 status=abnormal
+2026-10-08 14:03:56,516 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:56,518 INFO [panda.agent] clip 33 reason: score=0.200 status=abnormal
+2026-10-08 14:03:57,514 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:57,516 INFO [panda.agent] clip 34 reason: score=0.200 status=abnormal
+2026-10-08 14:03:58,485 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:58,487 INFO [panda.agent] clip 35 reason: score=0.200 status=abnormal
+2026-10-08 14:03:59,652 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:03:59,654 INFO [panda.agent] clip 36 reason: score=0.200 status=abnormal
+2026-10-08 14:04:00,564 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:00,566 INFO [panda.agent] clip 37 reason: score=0.200 status=abnormal
+2026-10-08 14:04:01,555 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:01,557 INFO [panda.agent] clip 38 reason: score=0.700 status=abnormal
+2026-10-08 14:04:02,528 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:02,530 INFO [panda.agent] clip 39 reason: score=0.800 status=abnormal
+2026-10-08 14:04:03,706 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:03,707 INFO [panda.agent] clip 40 reason: score=0.800 status=abnormal
+2026-10-08 14:04:04,611 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:04,613 INFO [panda.agent] clip 41 reason: score=0.800 status=abnormal
+2026-10-08 14:04:05,579 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:05,581 INFO [panda.agent] clip 42 reason: score=0.300 status=abnormal
+2026-10-08 14:04:06,523 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:06,525 INFO [panda.agent] clip 43 reason: score=0.200 status=abnormal
+2026-10-08 14:04:07,770 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:07,772 INFO [panda.agent] clip 44 reason: score=0.200 status=abnormal
+2026-10-08 14:04:08,742 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:08,744 INFO [panda.agent] clip 45 reason: score=0.200 status=abnormal
+2026-10-08 14:04:09,826 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:09,828 INFO [panda.agent] clip 46 reason: score=0.800 status=abnormal
+2026-10-08 14:04:10,835 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:10,837 INFO [panda.agent] clip 47 reason: score=0.800 status=abnormal
+2026-10-08 14:04:12,067 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:12,069 INFO [panda.agent] clip 48 reason: score=0.200 status=abnormal
+2026-10-08 14:04:13,027 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:13,029 INFO [panda.agent] clip 49 reason: score=0.200 status=abnormal
+2026-10-08 14:04:13,938 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:13,940 INFO [panda.agent] clip 50 reason: score=0.200 status=abnormal
+2026-10-08 14:04:14,883 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:14,885 INFO [panda.agent] clip 51 reason: score=0.200 status=abnormal
+2026-10-08 14:04:15,824 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:15,826 INFO [panda.agent] clip 52 reason: score=0.300 status=abnormal
+2026-10-08 14:04:16,732 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:16,734 INFO [panda.agent] clip 53 reason: score=0.200 status=abnormal
+2026-10-08 14:04:17,627 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:17,629 INFO [panda.agent] clip 54 reason: score=0.200 status=abnormal
+2026-10-08 14:04:18,571 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:18,573 INFO [panda.agent] clip 55 reason: score=0.200 status=abnormal
+2026-10-08 14:04:19,905 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:19,907 INFO [panda.agent] clip 56 reason: score=0.200 status=abnormal
+2026-10-08 14:04:20,766 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:20,768 INFO [panda.agent] clip 57 reason: score=0.200 status=abnormal
+2026-10-08 14:04:20,770 INFO [panda.agent] === video Arrest030_x264 done: 58 clips ===
+2026-10-08 14:04:20,790 INFO [run_eval] video Arrest030_x264 done in 60.1s: auc raw=70.05 smoothed=75.83
+2026-10-08 14:04:20,790 INFO [run_eval] video Arrest039_x264 (abnormal): 528 frames, fps=30.00
+2026-10-08 14:04:20,792 INFO [panda.agent] === video Arrest039_x264: 528 frames, 106 clips ===
+2026-10-08 14:04:21,703 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:21,705 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 14:04:22,607 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:22,609 INFO [panda.agent] clip 1 reason: score=0.000 status=normal
+2026-10-08 14:04:23,511 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:23,513 INFO [panda.agent] clip 2 reason: score=0.000 status=normal
+2026-10-08 14:04:24,435 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:24,437 INFO [panda.agent] clip 3 reason: score=0.000 status=normal
+2026-10-08 14:04:25,365 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:25,367 INFO [panda.agent] clip 4 reason: score=0.000 status=normal
+2026-10-08 14:04:26,230 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:26,232 INFO [panda.agent] clip 5 reason: score=0.000 status=normal
+2026-10-08 14:04:27,221 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:27,223 INFO [panda.agent] clip 6 reason: score=0.200 status=abnormal
+2026-10-08 14:04:28,263 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:28,266 INFO [panda.agent] clip 7 reason: score=0.200 status=normal
+2026-10-08 14:04:29,855 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:29,857 INFO [panda.agent] clip 8 reason: score=0.000 status=normal
+2026-10-08 14:04:31,450 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:31,452 INFO [panda.agent] clip 9 reason: score=0.000 status=normal
+2026-10-08 14:04:33,049 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:33,051 INFO [panda.agent] clip 10 reason: score=0.000 status=normal
+2026-10-08 14:04:34,043 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:34,045 INFO [panda.agent] clip 11 reason: score=0.200 status=insufficient
+2026-10-08 14:04:34,047 INFO [panda.agent] clip 11: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:04:35,031 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:35,033 INFO [panda.agent] clip 12 reason: score=0.100 status=normal
+2026-10-08 14:04:36,008 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:36,010 INFO [panda.agent] clip 13 reason: score=0.200 status=insufficient
+2026-10-08 14:04:36,013 INFO [panda.agent] clip 13: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:04:36,848 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:36,850 INFO [panda.agent] clip 14 reason: score=0.200 status=normal
+2026-10-08 14:04:37,875 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:37,877 INFO [panda.agent] clip 15 reason: score=0.200 status=normal
+2026-10-08 14:04:38,868 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:38,870 INFO [panda.agent] clip 16 reason: score=0.200 status=abnormal
+2026-10-08 14:04:39,863 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:39,865 INFO [panda.agent] clip 17 reason: score=0.200 status=insufficient
+2026-10-08 14:04:39,867 INFO [panda.agent] clip 17: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:04:40,871 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:40,873 INFO [panda.agent] clip 18 reason: score=0.000 status=normal
+2026-10-08 14:04:42,273 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:42,275 INFO [panda.agent] clip 19 reason: score=0.000 status=normal
+2026-10-08 14:04:43,174 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:43,176 INFO [panda.agent] clip 20 reason: score=0.000 status=normal
+2026-10-08 14:04:44,094 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:44,097 INFO [panda.agent] clip 21 reason: score=0.000 status=normal
+2026-10-08 14:04:45,075 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:45,077 INFO [panda.agent] clip 22 reason: score=0.100 status=normal
+2026-10-08 14:04:45,993 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:45,996 INFO [panda.agent] clip 23 reason: score=0.000 status=normal
+2026-10-08 14:04:46,921 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:46,923 INFO [panda.agent] clip 24 reason: score=0.000 status=normal
+2026-10-08 14:04:48,313 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:48,315 INFO [panda.agent] clip 25 reason: score=0.100 status=normal
+2026-10-08 14:04:49,328 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:49,330 INFO [panda.agent] clip 26 reason: score=0.100 status=normal
+2026-10-08 14:04:50,338 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:50,340 INFO [panda.agent] clip 27 reason: score=0.100 status=normal
+2026-10-08 14:04:51,339 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:51,341 INFO [panda.agent] clip 28 reason: score=0.000 status=normal
+2026-10-08 14:04:52,274 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:52,276 INFO [panda.agent] clip 29 reason: score=0.000 status=normal
+2026-10-08 14:04:53,284 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:53,286 INFO [panda.agent] clip 30 reason: score=0.200 status=abnormal
+2026-10-08 14:04:54,354 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:54,356 INFO [panda.agent] clip 31 reason: score=0.200 status=normal
+2026-10-08 14:04:55,292 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:55,294 INFO [panda.agent] clip 32 reason: score=0.100 status=normal
+2026-10-08 14:04:56,365 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:56,367 INFO [panda.agent] clip 33 reason: score=0.200 status=abnormal
+2026-10-08 14:04:57,358 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:57,360 INFO [panda.agent] clip 34 reason: score=0.200 status=normal
+2026-10-08 14:04:58,321 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:58,323 INFO [panda.agent] clip 35 reason: score=0.200 status=normal
+2026-10-08 14:04:59,369 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:04:59,371 INFO [panda.agent] clip 36 reason: score=0.200 status=normal
+2026-10-08 14:05:00,266 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:00,268 INFO [panda.agent] clip 37 reason: score=0.200 status=abnormal
+2026-10-08 14:05:01,295 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:01,297 INFO [panda.agent] clip 38 reason: score=0.200 status=normal
+2026-10-08 14:05:02,308 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:02,310 INFO [panda.agent] clip 39 reason: score=0.200 status=normal
+2026-10-08 14:05:03,190 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:03,192 INFO [panda.agent] clip 40 reason: score=0.200 status=abnormal
+2026-10-08 14:05:04,601 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:04,602 INFO [panda.agent] clip 41 reason: score=0.000 status=normal
+2026-10-08 14:05:05,987 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:05,988 INFO [panda.agent] clip 42 reason: score=0.000 status=normal
+2026-10-08 14:05:06,977 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:06,979 INFO [panda.agent] clip 43 reason: score=0.200 status=normal
+2026-10-08 14:05:07,994 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:07,995 INFO [panda.agent] clip 44 reason: score=0.200 status=normal
+2026-10-08 14:05:09,007 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:09,008 INFO [panda.agent] clip 45 reason: score=0.200 status=normal
+2026-10-08 14:05:09,927 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:09,928 INFO [panda.agent] clip 46 reason: score=0.200 status=abnormal
+2026-10-08 14:05:10,812 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:10,812 INFO [panda.agent] clip 47 reason: score=0.200 status=abnormal
+2026-10-08 14:05:12,011 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:12,012 INFO [panda.agent] clip 48 reason: score=0.200 status=abnormal
+2026-10-08 14:05:12,864 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:12,865 INFO [panda.agent] clip 49 reason: score=0.200 status=abnormal
+2026-10-08 14:05:14,237 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:14,238 INFO [panda.agent] clip 50 reason: score=0.000 status=normal
+2026-10-08 14:05:15,296 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:15,297 INFO [panda.agent] clip 51 reason: score=0.200 status=abnormal
+2026-10-08 14:05:16,162 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:16,163 INFO [panda.agent] clip 52 reason: score=0.300 status=abnormal
+2026-10-08 14:05:17,075 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:17,076 INFO [panda.agent] clip 53 reason: score=0.000 status=normal
+2026-10-08 14:05:17,986 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:17,987 INFO [panda.agent] clip 54 reason: score=0.000 status=normal
+2026-10-08 14:05:18,948 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:18,949 INFO [panda.agent] clip 55 reason: score=0.200 status=abnormal
+2026-10-08 14:05:19,893 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:19,894 INFO [panda.agent] clip 56 reason: score=0.200 status=abnormal
+2026-10-08 14:05:20,774 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:20,775 INFO [panda.agent] clip 57 reason: score=0.200 status=abnormal
+2026-10-08 14:05:21,781 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:21,782 INFO [panda.agent] clip 58 reason: score=0.200 status=abnormal
+2026-10-08 14:05:22,916 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:22,917 INFO [panda.agent] clip 59 reason: score=0.200 status=abnormal
+2026-10-08 14:05:23,797 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:23,798 INFO [panda.agent] clip 60 reason: score=0.200 status=abnormal
+2026-10-08 14:05:24,680 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:24,681 INFO [panda.agent] clip 61 reason: score=0.200 status=abnormal
+2026-10-08 14:05:25,782 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:25,783 INFO [panda.agent] clip 62 reason: score=0.300 status=abnormal
+2026-10-08 14:05:26,663 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:26,664 INFO [panda.agent] clip 63 reason: score=0.200 status=abnormal
+2026-10-08 14:05:27,541 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:27,543 INFO [panda.agent] clip 64 reason: score=0.200 status=abnormal
+2026-10-08 14:05:28,639 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:28,641 INFO [panda.agent] clip 65 reason: score=0.200 status=abnormal
+2026-10-08 14:05:29,868 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:29,870 INFO [panda.agent] clip 66 reason: score=0.200 status=abnormal
+2026-10-08 14:05:30,840 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:30,842 INFO [panda.agent] clip 67 reason: score=0.200 status=abnormal
+2026-10-08 14:05:31,889 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:31,891 INFO [panda.agent] clip 68 reason: score=0.200 status=abnormal
+2026-10-08 14:05:33,043 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:33,045 INFO [panda.agent] clip 69 reason: score=0.200 status=abnormal
+2026-10-08 14:05:34,238 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:34,240 INFO [panda.agent] clip 70 reason: score=0.200 status=insufficient
+2026-10-08 14:05:34,242 INFO [panda.agent] clip 70: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:05:35,257 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:35,259 INFO [panda.agent] clip 71 reason: score=0.200 status=abnormal
+2026-10-08 14:05:36,227 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:36,229 INFO [panda.agent] clip 72 reason: score=0.300 status=abnormal
+2026-10-08 14:05:37,137 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:37,139 INFO [panda.agent] clip 73 reason: score=0.200 status=abnormal
+2026-10-08 14:05:38,047 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:38,049 INFO [panda.agent] clip 74 reason: score=0.200 status=abnormal
+2026-10-08 14:05:39,019 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:39,021 INFO [panda.agent] clip 75 reason: score=0.200 status=abnormal
+2026-10-08 14:05:39,990 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:39,992 INFO [panda.agent] clip 76 reason: score=0.200 status=abnormal
+2026-10-08 14:05:41,470 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:41,472 INFO [panda.agent] clip 77 reason: score=0.200 status=abnormal
+2026-10-08 14:05:42,511 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:42,513 INFO [panda.agent] clip 78 reason: score=0.200 status=abnormal
+2026-10-08 14:05:43,485 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:43,487 INFO [panda.agent] clip 79 reason: score=0.200 status=abnormal
+2026-10-08 14:05:44,490 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:44,492 INFO [panda.agent] clip 80 reason: score=0.200 status=abnormal
+2026-10-08 14:05:45,563 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:45,565 INFO [panda.agent] clip 81 reason: score=0.200 status=abnormal
+2026-10-08 14:05:46,567 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:46,569 INFO [panda.agent] clip 82 reason: score=0.100 status=normal
+2026-10-08 14:05:47,632 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:47,634 INFO [panda.agent] clip 83 reason: score=0.200 status=abnormal
+2026-10-08 14:05:48,575 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:48,577 INFO [panda.agent] clip 84 reason: score=0.700 status=abnormal
+2026-10-08 14:05:49,836 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:49,838 INFO [panda.agent] clip 85 reason: score=0.200 status=normal
+2026-10-08 14:05:50,750 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:50,752 INFO [panda.agent] clip 86 reason: score=0.200 status=abnormal
+2026-10-08 14:05:52,168 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:52,170 INFO [panda.agent] clip 87 reason: score=0.900 status=abnormal
+2026-10-08 14:05:53,301 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:53,303 INFO [panda.agent] clip 88 reason: score=0.200 status=abnormal
+2026-10-08 14:05:54,227 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:54,230 INFO [panda.agent] clip 89 reason: score=0.200 status=abnormal
+2026-10-08 14:05:55,205 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:55,207 INFO [panda.agent] clip 90 reason: score=0.200 status=abnormal
+2026-10-08 14:05:56,229 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:56,231 INFO [panda.agent] clip 91 reason: score=0.200 status=abnormal
+2026-10-08 14:05:57,282 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:57,284 INFO [panda.agent] clip 92 reason: score=0.100 status=normal
+2026-10-08 14:05:58,302 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:58,304 INFO [panda.agent] clip 93 reason: score=0.200 status=abnormal
+2026-10-08 14:05:59,275 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:05:59,277 INFO [panda.agent] clip 94 reason: score=0.200 status=abnormal
+2026-10-08 14:06:00,217 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:00,219 INFO [panda.agent] clip 95 reason: score=0.200 status=abnormal
+2026-10-08 14:06:01,192 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:01,194 INFO [panda.agent] clip 96 reason: score=0.800 status=abnormal
+2026-10-08 14:06:02,561 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:02,563 INFO [panda.agent] clip 97 reason: score=0.200 status=abnormal
+2026-10-08 14:06:03,463 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:03,465 INFO [panda.agent] clip 98 reason: score=0.200 status=abnormal
+2026-10-08 14:06:04,404 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:04,406 INFO [panda.agent] clip 99 reason: score=0.200 status=abnormal
+2026-10-08 14:06:05,363 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:05,365 INFO [panda.agent] clip 100 reason: score=0.200 status=abnormal
+2026-10-08 14:06:06,356 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:06,358 INFO [panda.agent] clip 101 reason: score=0.200 status=abnormal
+2026-10-08 14:06:07,762 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:07,764 INFO [panda.agent] clip 102 reason: score=0.000 status=normal
+2026-10-08 14:06:08,659 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:08,661 INFO [panda.agent] clip 103 reason: score=0.200 status=abnormal
+2026-10-08 14:06:09,568 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:09,568 INFO [panda.agent] clip 104 reason: score=0.200 status=abnormal
+2026-10-08 14:06:11,019 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:11,021 INFO [panda.agent] clip 105 reason: score=0.000 status=normal
+2026-10-08 14:06:11,024 INFO [panda.agent] === video Arrest039_x264 done: 106 clips ===
+2026-10-08 14:06:11,045 INFO [run_eval] video Arrest039_x264 done in 110.3s: auc raw=57.72 smoothed=55.21
+2026-10-08 14:06:11,045 INFO [run_eval] video Arson007_x264 (abnormal): 208 frames, fps=30.00
+2026-10-08 14:06:11,047 INFO [panda.agent] === video Arson007_x264: 208 frames, 42 clips ===
+2026-10-08 14:06:12,006 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:12,008 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 14:06:12,980 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:12,982 INFO [panda.agent] clip 1 reason: score=0.000 status=normal
+2026-10-08 14:06:13,947 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:13,949 INFO [panda.agent] clip 2 reason: score=0.000 status=normal
+2026-10-08 14:06:15,362 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:15,364 INFO [panda.agent] clip 3 reason: score=0.200 status=normal
+2026-10-08 14:06:16,778 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:16,780 INFO [panda.agent] clip 4 reason: score=0.100 status=normal
+2026-10-08 14:06:17,724 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:17,726 INFO [panda.agent] clip 5 reason: score=0.200 status=insufficient
+2026-10-08 14:06:17,728 INFO [panda.agent] clip 5: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:06:18,694 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:18,696 INFO [panda.agent] clip 6 reason: score=0.000 status=normal
+2026-10-08 14:06:19,694 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:19,696 INFO [panda.agent] clip 7 reason: score=0.000 status=normal
+2026-10-08 14:06:20,670 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:20,672 INFO [panda.agent] clip 8 reason: score=0.000 status=normal
+2026-10-08 14:06:21,637 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:21,639 INFO [panda.agent] clip 9 reason: score=0.000 status=normal
+2026-10-08 14:06:22,627 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:22,629 INFO [panda.agent] clip 10 reason: score=0.000 status=normal
+2026-10-08 14:06:23,606 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:23,608 INFO [panda.agent] clip 11 reason: score=0.000 status=normal
+2026-10-08 14:06:24,590 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:24,592 INFO [panda.agent] clip 12 reason: score=0.000 status=normal
+2026-10-08 14:06:25,578 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:25,580 INFO [panda.agent] clip 13 reason: score=0.000 status=normal
+2026-10-08 14:06:26,566 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:26,568 INFO [panda.agent] clip 14 reason: score=0.000 status=normal
+2026-10-08 14:06:27,542 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:27,544 INFO [panda.agent] clip 15 reason: score=0.000 status=normal
+2026-10-08 14:06:28,513 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:28,513 INFO [panda.agent] clip 16 reason: score=0.000 status=normal
+2026-10-08 14:06:29,661 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:29,663 INFO [panda.agent] clip 17 reason: score=0.200 status=insufficient
+2026-10-08 14:06:29,665 INFO [panda.agent] clip 17: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:06:30,631 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:30,633 INFO [panda.agent] clip 18 reason: score=0.000 status=normal
+2026-10-08 14:06:31,635 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:31,637 INFO [panda.agent] clip 19 reason: score=0.200 status=insufficient
+2026-10-08 14:06:31,639 INFO [panda.agent] clip 19: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:06:32,621 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:32,623 INFO [panda.agent] clip 20 reason: score=0.000 status=normal
+2026-10-08 14:06:33,642 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:33,645 INFO [panda.agent] clip 21 reason: score=0.100 status=abnormal
+2026-10-08 14:06:34,598 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:34,601 INFO [panda.agent] clip 22 reason: score=0.000 status=normal
+2026-10-08 14:06:35,590 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:35,592 INFO [panda.agent] clip 23 reason: score=0.000 status=normal
+2026-10-08 14:06:36,708 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:36,710 INFO [panda.agent] clip 24 reason: score=0.100 status=normal
+2026-10-08 14:06:37,793 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:37,795 INFO [panda.agent] clip 25 reason: score=0.000 status=normal
+2026-10-08 14:06:38,758 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:38,760 INFO [panda.agent] clip 26 reason: score=0.000 status=normal
+2026-10-08 14:06:39,726 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:39,728 INFO [panda.agent] clip 27 reason: score=0.000 status=normal
+2026-10-08 14:06:40,859 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:40,861 INFO [panda.agent] clip 28 reason: score=0.000 status=normal
+2026-10-08 14:06:41,914 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:41,916 INFO [panda.agent] clip 29 reason: score=0.000 status=normal
+2026-10-08 14:06:42,960 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:42,961 INFO [panda.agent] clip 30 reason: score=0.000 status=normal
+2026-10-08 14:06:43,997 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:43,999 INFO [panda.agent] clip 31 reason: score=0.000 status=normal
+2026-10-08 14:06:45,045 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:45,047 INFO [panda.agent] clip 32 reason: score=0.000 status=normal
+2026-10-08 14:06:46,114 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:46,116 INFO [panda.agent] clip 33 reason: score=0.000 status=normal
+2026-10-08 14:06:47,195 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:47,197 INFO [panda.agent] clip 34 reason: score=0.000 status=normal
+2026-10-08 14:06:48,550 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:48,552 INFO [panda.agent] clip 35 reason: score=0.000 status=normal
+2026-10-08 14:06:49,696 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:49,698 INFO [panda.agent] clip 36 reason: score=0.000 status=normal
+2026-10-08 14:06:50,893 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:50,895 INFO [panda.agent] clip 37 reason: score=0.000 status=normal
+2026-10-08 14:06:51,942 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:51,944 INFO [panda.agent] clip 38 reason: score=0.200 status=abnormal
+2026-10-08 14:06:52,913 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:52,915 INFO [panda.agent] clip 39 reason: score=0.000 status=normal
+2026-10-08 14:06:54,059 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:54,061 INFO [panda.agent] clip 40 reason: score=0.200 status=insufficient
+2026-10-08 14:06:54,063 INFO [panda.agent] clip 40: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:06:54,997 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:54,999 INFO [panda.agent] clip 41 reason: score=0.000 status=normal
+2026-10-08 14:06:55,002 INFO [panda.agent] === video Arson007_x264 done: 42 clips ===
+2026-10-08 14:06:55,021 INFO [run_eval] video Arson007_x264 done in 44.0s: auc raw=44.80 smoothed=45.89
+2026-10-08 14:06:55,021 INFO [run_eval] video Arson009_x264 (abnormal): 25 frames, fps=30.00
+2026-10-08 14:06:55,023 INFO [panda.agent] === video Arson009_x264: 25 frames, 5 clips ===
+2026-10-08 14:06:56,159 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:56,161 INFO [panda.agent] clip 0 reason: score=0.200 status=insufficient
+2026-10-08 14:06:56,163 INFO [panda.agent] clip 0: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:06:57,224 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:57,226 INFO [panda.agent] clip 1 reason: score=0.200 status=insufficient
+2026-10-08 14:06:57,229 INFO [panda.agent] clip 1: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:06:58,094 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:58,096 INFO [panda.agent] clip 2 reason: score=0.900 status=abnormal
+2026-10-08 14:06:59,350 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:06:59,352 INFO [panda.agent] clip 3 reason: score=0.800 status=abnormal
+2026-10-08 14:07:00,526 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:00,528 INFO [panda.agent] clip 4 reason: score=0.900 status=abnormal
+2026-10-08 14:07:00,531 INFO [panda.agent] === video Arson009_x264 done: 5 clips ===
+2026-10-08 14:07:00,548 INFO [run_eval] video Arson009_x264 done in 5.5s: auc raw=15.91 smoothed=31.82
+2026-10-08 14:07:00,549 INFO [run_eval] video Arson010_x264 (abnormal): 105 frames, fps=30.00
+2026-10-08 14:07:00,550 INFO [panda.agent] === video Arson010_x264: 105 frames, 21 clips ===
+2026-10-08 14:07:01,951 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:01,953 INFO [panda.agent] clip 0 reason: score=0.000 status=normal
+2026-10-08 14:07:03,056 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:03,058 INFO [panda.agent] clip 1 reason: score=0.000 status=normal
+2026-10-08 14:07:04,504 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:04,506 INFO [panda.agent] clip 2 reason: score=0.100 status=normal
+2026-10-08 14:07:05,525 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:05,527 INFO [panda.agent] clip 3 reason: score=0.200 status=insufficient
+2026-10-08 14:07:05,530 INFO [panda.agent] clip 3: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:07:06,724 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:06,726 INFO [panda.agent] clip 4 reason: score=0.200 status=abnormal
+2026-10-08 14:07:07,669 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:07,671 INFO [panda.agent] clip 5 reason: score=0.200 status=abnormal
+2026-10-08 14:07:08,567 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:08,569 INFO [panda.agent] clip 6 reason: score=0.200 status=abnormal
+2026-10-08 14:07:09,671 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:09,673 INFO [panda.agent] clip 7 reason: score=0.000 status=normal
+2026-10-08 14:07:10,791 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:10,793 INFO [panda.agent] clip 8 reason: score=0.000 status=normal
+2026-10-08 14:07:11,850 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:11,852 INFO [panda.agent] clip 9 reason: score=0.000 status=normal
+2026-10-08 14:07:13,032 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:13,034 INFO [panda.agent] clip 10 reason: score=0.000 status=normal
+2026-10-08 14:07:14,197 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:14,199 INFO [panda.agent] clip 11 reason: score=0.200 status=insufficient
+2026-10-08 14:07:14,201 INFO [panda.agent] clip 11: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:07:15,287 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:15,289 INFO [panda.agent] clip 12 reason: score=0.300 status=abnormal
+2026-10-08 14:07:16,184 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:16,186 INFO [panda.agent] clip 13 reason: score=0.200 status=abnormal
+2026-10-08 14:07:17,491 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:17,493 INFO [panda.agent] clip 14 reason: score=0.200 status=abnormal
+2026-10-08 14:07:18,575 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:18,577 INFO [panda.agent] clip 15 reason: score=0.200 status=insufficient
+2026-10-08 14:07:18,580 INFO [panda.agent] clip 15: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:07:20,363 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:20,365 INFO [panda.agent] clip 16 reason: score=0.200 status=insufficient
+2026-10-08 14:07:20,368 INFO [panda.agent] clip 16: still insufficient after 0 rounds; fallback score 0.50
+2026-10-08 14:07:21,307 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:21,309 INFO [panda.agent] clip 17 reason: score=0.000 status=normal
+2026-10-08 14:07:22,878 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:22,880 INFO [panda.agent] clip 18 reason: score=0.000 status=normal
+2026-10-08 14:07:23,842 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:23,844 INFO [panda.agent] clip 19 reason: score=0.000 status=normal
+2026-10-08 14:07:25,317 INFO [httpx2] HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-08 14:07:25,319 INFO [panda.agent] clip 20 reason: score=0.000 status=normal
+2026-10-08 14:07:25,322 INFO [panda.agent] === video Arson010_x264 done: 21 clips ===
+2026-10-08 14:07:25,341 INFO [run_eval] video Arson010_x264 done in 24.8s: auc raw=43.28 smoothed=41.98
+
+===== RESULTS =====
+stage=m0 split=subset metric=auc videos=20
+pooled AUC raw:      59.91
+pooled AUC smoothed: 60.98
+macro  AUC raw mean:  49.93
+macro  AUC smoothed:  58.13
+summary saved to results/m0_subset_summary.json

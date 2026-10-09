@@ -1,0 +1,19 @@
+{
+  "n_videos": 290,
+  "n_frames": 37066,
+  "pooled_auc_raw": 67.42499943148856,
+  "pooled_auc_smoothed": 69.12844818312615,
+  "macro_auc_raw_mean": 51.9775600908173,
+  "macro_auc_smoothed_mean": 52.6746195741036,
+  "stage": "m6",
+  "split": "full",
+  "ablation": {
+    "perception": true,
+    "planning": true,
+    "rag": true,
+    "reflection": true,
+    "short_com": true,
+    "long_com": true
+  },
+  "out": "results/m6_full.jsonl"
+}
